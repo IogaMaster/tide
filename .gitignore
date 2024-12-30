@@ -1,0 +1,8 @@
+# direnv
+.direnv/
+templates/default/flake.nix
+
+# nix
+result
+result-*
+
