@@ -8,6 +8,10 @@
       url = "github:numtide/blueprint";
     };
     flakegen.url = "github:jorsn/flakegen";
+    home-manager = {
+      inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:nix-community/home-manager/master";
+    };
     nixlib.url = "github:nix-community/nixpkgs.lib";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };

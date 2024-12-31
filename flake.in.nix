@@ -10,6 +10,9 @@
     nixlib.url = "github:nix-community/nixpkgs.lib";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     blueprint = dep "github:numtide/blueprint";
+
+    # Proper Dependencies
+    home-manager = dep "github:nix-community/home-manager/master";
   };
 
   outputs = (inputs: inputs.blueprint { inherit inputs; });
