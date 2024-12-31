@@ -3,7 +3,7 @@
 
   # Your flake inputs can now be full nix code, not just pure data. So functions, thunks, etc are allowed!!!
   # We have a direnv hook that generates a static flake.nix from this file when you save it
-  # To do this manually just ryn `nix run .#genflake flake.nix`. This is a package automatically included in your flake.
+  # To do this manually just run `nix run .#genflake flake.nix`. This is a package automatically included in your flake.
   inputs = let
     dep = url: {
       inherit url;
