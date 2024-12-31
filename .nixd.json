@@ -1,0 +1,21 @@
+{
+    "nixpkgs": {
+        "expr": "import (builtins.getFlake \".\").inputs.nixpkgs { }   "
+    },
+    "eval": {
+        "target": {
+            "args": [
+                "-f",
+                "default.nix"
+            ],
+        },
+        "depth": 10
+    },
+    "options": {
+        "enable": true,
+        "target": {
+            "args": [],
+        }
+    }
+}
+
