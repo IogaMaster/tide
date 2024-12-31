@@ -1,0 +1,1 @@
+{ ... }: { mkFlake = (import ./mkFlake.nix); }
