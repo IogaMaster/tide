@@ -1,1 +1,3 @@
-{ ... }: { mkFlake = (import ./mkFlake.nix); }
+{ flake, inputs, ... }: {
+  mkFlake = (import ./mkFlake.nix { inherit inputs; });
+}
