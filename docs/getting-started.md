@@ -50,3 +50,15 @@ In this case it looks like so:
 As you can see we have a valid `flake.nix`.
 There is a special flakegen input and function in the outputs, this gives us the `.#flakegen` package.
 Then just uses the `flake.in.nix` outputs, because flake outputs are full nix code.
+
+# flake.systems.nix?
+It's a good practice to define what systems and architectures you support.
+So you fill the file with those (these are the defaults):
+```nix
+[
+  "x86_64-linux"
+  "x86_64-darwin"
+  "aarch64-linux"
+  "aarch64-darwin"
+]
+```
