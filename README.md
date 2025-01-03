@@ -39,14 +39,22 @@ With tide you can build a NixOS configuration with integration with builtin depl
 
 [Snowfall Lib](https://github.com/snowfallorg/lib) is a fantastic project, so i was inspired to make a more simple and all in one framework myself.
 
-<!-- ## 📦 Installation and Usage -->
+## 📦 Installation and Usage
 
+### Getting Started:
+Use the template located at: https://github.com/iogamaster/tide-template
+```shell
+mkdir myconfig && cd myconfig
+nix flake init -t github:iogamaster/tide-template
+```
 
-<!-- ## 🔨 TODO -->
-<!---->
-<!-- There is still a lot to do: -->
-<!---->
-<!-- - Something -->
+## 🔨 TODO
+
+There is still a lot to do:
+
+- Finish the basic `mkFlake` function
+- Add a terraform setup
+- Write proper documentation for tide, and the template
 
 ## ❤️ Contributing
 
