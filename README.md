@@ -48,6 +48,9 @@ mkdir myconfig && cd myconfig
 nix flake init -t github:iogamaster/tide-template
 ```
 
+Read the getting started guide here:
+[getting-started.md](./docs/getting-started.md)
+
 ## 🔨 TODO
 
 There is still a lot to do:
